@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rodaina Mohamed Mustafa</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">Rodaina<span>.</span></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a></li>
+        <li class="nav-item"><a class="nav-link" href="#activities">Activities</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section hero">
+    <div class="hero-bg" aria-hidden="true">
+      <svg class="hero-network" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+        <g class="net-lines"></g>
+        <g class="net-nodes"></g>
+      </svg>
+    </div>
+    <div class="hero-content reveal">
+      <div class="hero-image">
+        <img src="image.jpeg" alt="photo of Rodaina Mohamed">
+        <span class="hero-ring"></span>
+      </div>
+      <p class="eyebrow">Hello, my name is</p>
+      <h1>Rodaina <span>Mohamed</span></h1>
+      <p class="role-line">
+        <span class="role-static">I build with</span>
+        <span class="role-rotator" id="roleRotator"></span>
+      </p>
+      <p class="hero-sub">Computer Engineering student blending Java engineering, machine learning, and web craft into practical, reliable software.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn primary">See my work</a>
+        <a href="#contact" class="btn ghost">Get in touch</a>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/Rodyyyyy" target="_blank" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/rodaina-mohamed-746714268/" target="_blank" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:rodaina.hassan.2024@aiu.edu.eg" target="_blank" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <section id="about" class="section about reveal">
+    <h2><span class="section-index">01</span>About</h2>
+    <p>
+      I'm Rodaina Mohamed, a Python developer and machine learning enthusiast with a strong foundation in
+      Computer Engineering and Artificial Intelligence. As a problem-solver with a LeetCode score of 300+,
+      I enjoy tackling complex challenges and building efficient, scalable solutions.
+    </p>
+    <p>
+      My primary interest lies in machine learning and intelligent systems, where I work on building models
+      that transform data into actionable insights. I have experience with the end-to-end ML workflow, from
+      data preprocessing and feature engineering to model training, evaluation, and optimization, applying
+      best practices to create reliable and impactful solutions.
+    </p>
+    <p>
+      Alongside my ML work, I develop scalable applications and efficient Java-based systems, combining
+      data-driven insights, secure architecture, and object-oriented design. I'm passionate about bridging
+      technology with real-world needs and creating solutions that are both innovative and practical.
+    </p>
+    <p>
+      I'm currently part of the GCI World April 2026 cohort at the Matsuo-Iwasawa Lab, University of Tokyo,
+      and researching ML-optimized piezoelectric-electrospun nanofiber wound dressings to accelerate diabetic
+      foot ulcer healing.
+    </p>
+  </section>
+
+  <section id="education" class="section education reveal">
+    <h2><span class="section-index">02</span>Education</h2>
+    <div class="edu-item">
+      <h3>Bachelor of Computer Engineering — Alamein International University</h3>
+      <span>2023 – 2028 (expected)</span>
+      <ul>
+        <li>Level 3 student, majoring in Artificial Intelligence</li>
+        <li>Courses completed: Data Structures, Artificial Intelligence, Machine Learning, Database Systems, Web Programming, Operating Systems, and Computer Networks</li>
+      </ul>
+    </div>
+    <div class="edu-item">
+      <h3>IGCSE High School Diploma — El-Nasr Girls' College</h3>
+      <span>June 2021 – June 2023</span>
+      <ul>
+        <li>8 O-Levels, 7 of which A* &middot; A-Level Mathematics: A (99.4%)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience" class="section experience reveal">
+    <h2><span class="section-index">03</span>Experience</h2>
+    <div class="exp-item">
+      <h3>AI and Data Science Trainee — Matsuo-Iwasawa Lab, University of Tokyo (Remote)</h3>
+      <span>Apr 2026 – Present</span>
+      <ul>
+        <li>Competitively selected for the GCI World April 2026 cohort</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>ML Research Student — Electrospinning Optimization</h3>
+      <span>Jan 2026 – Present</span>
+      <ul>
+        <li>Developing ML-optimized piezoelectric-electrospun nanofiber wound dressings to accelerate diabetic foot ulcer healing</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>AI &amp; Machine Learning Trainee — DEPI</h3>
+      <span>Nov 2025 – Present</span>
+      <ul>
+        <li>Applying ML models to real-world datasets covering evaluation, feature engineering, and deployment</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>Data Science &amp; ML Intern — Egypt Petrochemicals</h3>
+      <span>Jul 2025 – Aug 2025</span>
+      <ul>
+        <li>Built intelligent automation workflows for industrial data analysis, contributing to performance improvements across production</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>Java Development Trainee (A+ Grade) — ITI</h3>
+      <span>Jun 2025 – Sep 2025</span>
+      <ul>
+        <li>Completed intensive training in core Java, OOP, and web application development with Servlets</li>
+      </ul>
+    </div>
+    <div class="exp-item">
+      <h3>Web Development Trainee — ITI, Top 5%</h3>
+      <span>Jul 2025 – Aug 2025</span>
+      <ul>
+        <li>Delivered "BREW HAUS", a responsive website built with C#, JavaScript, and Bootstrap; ranked in the top 5% of all program participants</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills" class="section skills reveal">
+    <h2><span class="section-index">04</span>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Languages</h4>
+        <div class="skills-container">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C#</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">SQL / MySQL</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">HTML / CSS</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>AI &amp; ML</h4>
+        <div class="skills-container">
+          <span class="skill-tag">Scikit-learn</span>
+          <span class="skill-tag">Pandas</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">Matplotlib</span>
+          <span class="skill-tag">Seaborn</span>
+          <span class="skill-tag">OpenCV</span>
+          <span class="skill-tag">Mediapipe</span>
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">YOLO</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Tools &amp; Platforms</h4>
+        <div class="skills-container">
+          <span class="skill-tag">Git / GitHub</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">.NET</span>
+          <span class="skill-tag">Flask</span>
+          <span class="skill-tag">JavaFX</span>
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">MATLAB</span>
+          <span class="skill-tag">300+ LeetCode</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h4>Soft Skills &amp; Languages</h4>
+        <div class="skills-container">
+          <span class="skill-tag">Problem-solving</span>
+          <span class="skill-tag">Leadership</span>
+          <span class="skill-tag">Communication</span>
+          <span class="skill-tag">Arabic (Native)</span>
+          <span class="skill-tag">English (B2-C1)</span>
+          <span class="skill-tag">German (A2-B1)</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section projects reveal">
+    <h2><span class="section-index">05</span>Projects</h2>
+    <div class="card-grid">
+
+      <a href="https://github.com/Rodyyyyy/FlowTrace" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>FlowTrace — Block Diagram to Signal Flow</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>An engineering workbench that automates Mason's Gain Formula to transform signal flow graphs into mathematical solutions, eliminating manual computation.</p>
+        <div class="tech-tags"><span>Python</span><span>Flask</span><span>NetworkX</span><span>HTML/CSS/JS</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/CipherMatrix-Image-Encryption-Security-Analysis-Platform" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>CipherMatrix — Image Encryption Security Platform</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>An AI-powered encryption platform combining 10 techniques with real-time security analytics and attack simulations.</p>
+        <div class="tech-tags"><span>Python</span><span>Flask</span><span>OpenCV</span><span>JavaScript</span></div>
+      </a>
+
+      <div class="project-card project-card--wip">
+        <div class="card-top">
+          <h3>Sonic Shield — Smart City Safety System</h3>
+          <span class="wip-badge">In Progress</span>
+        </div>
+        <p>An AI system that detects life-threatening alarms through audio analysis and dispatches emergency alerts via Dijkstra routing.</p>
+        <div class="tech-tags"><span>Python</span><span>AI Audio Analysis</span><span>Dijkstra Routing</span></div>
+      </div>
+
+      <a href="https://github.com/Rodyyyyy/ATLASX-website" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>ATLASX — Smart Travel Discovery Platform</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>A full-stack travel discovery platform for exploring cities, landmarks, and personalized travel recommendations in one place.</p>
+        <div class="tech-tags"><span>Python</span><span>Node.js</span><span>REST APIs</span><span>JWT Auth</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/Sign-Language-Recognition-" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>Sign Language Recognition System</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>Trained a model on 20,000+ data points to recognize sign language in real time using MediaPipe hand-landmark tracking, supporting inclusive communication for the deaf and hard-of-hearing community.</p>
+        <div class="tech-tags"><span>Python</span><span>MediaPipe</span><span>OpenCV</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/Diabetes-Health-Indicator-" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>Diabetes Health Indicator</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>An end-to-end system comparing 5 ML classification models on real-world clinical data, with a custom preprocessing pipeline that improved accuracy by 45%.</p>
+        <div class="tech-tags"><span>Scikit-learn</span><span>Pandas</span><span>Random Forest</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/Library-Management-System" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>Library Management System</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>A full-featured desktop GUI application for managing library records, checkouts, and returns.</p>
+        <div class="tech-tags"><span>Java</span><span>Swing</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/AIU-Cafeteria-" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>AIU Cafeteria System</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>A full cafeteria ordering system with menu editing, notifications, and a loyalty points program. Built with a team of 4; contributed 50% of the project.</p>
+        <div class="tech-tags"><span>Java</span><span>OOP</span><span>JavaFX</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/Numerical-Analysis-Calculator-" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>Numerical Analysis Calculator</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>A Java-based calculator using OOP, data structures, and JavaFX to implement and solve numerical analysis methods. Contributed 50% of the project.</p>
+        <div class="tech-tags"><span>Java</span><span>JavaFX</span><span>Data Structures</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/BREW-HAUS" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>BREW HAUS</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>A fully responsive and interactive café website with smooth navigation and modern UI.</p>
+        <div class="tech-tags"><span>HTML</span><span>CSS</span><span>Bootstrap 5</span><span>JS</span></div>
+      </a>
+
+      <a href="https://github.com/Rodyyyyy/AI-Dungeon-Master" target="_blank" class="project-card">
+        <div class="card-top">
+          <h3>AI Dungeon Master</h3>
+          <i class="fas fa-arrow-up-right-from-square card-icon"></i>
+        </div>
+        <p>A game built with Python and Pygame, featuring a pathfinding enemy powered by the A* algorithm.</p>
+        <div class="tech-tags"><span>Python</span><span>Pygame</span><span>A* Algorithm</span></div>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="certificates" class="section certificates reveal">
+    <h2><span class="section-index">06</span>Certificates</h2>
+    <div class="table-wrapper">
+      <table class="cert-table">
+        <thead>
+          <tr>
+            <th>Certificate</th>
+            <th>Date</th>
+            <th>Organization</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Ordered Data Structures</td><td>2025</td><td>Coursera (Illinois)</td></tr>
+          <tr><td>Object-Oriented Programming using C</td><td>2025</td><td>Coursera</td></tr>
+          <tr><td>Programming for Everybody — Python</td><td>2025</td><td>Coursera (Michigan)</td></tr>
+          <tr><td>Inferential Statistics</td><td>2025</td><td>Coursera (Duke)</td></tr>
+          <tr><td>Linear Regression &amp; Modeling</td><td>Apr–May 2025</td><td>Coursera (Duke)</td></tr>
+          <tr><td>Intro to Probability &amp; Data with R</td><td>2025</td><td>Coursera (Duke)</td></tr>
+          <tr><td>Machine Learning for All</td><td>Jan–Feb 2025</td><td>Coursera</td></tr>
+          <tr><td>Relational Database Systems</td><td>Mar–Apr 2025</td><td>Coursera</td></tr>
+          <tr><td>Intro to Linux Commands</td><td>2025</td><td>Coursera</td></tr>
+          <tr><td>Introduction to Databases</td><td>2025</td><td>Coursera (Meta)</td></tr>
+          <tr><td>Java Core</td><td>Jun–Jul 2025</td><td>Mahara-Tech</td></tr>
+          <tr><td>Java Database Connectivity</td><td>Jun–Jul 2025</td><td>Mahara-Tech</td></tr>
+          <tr><td>Comprehensive Guide to JavaFX Essentials</td><td>Sep–Oct 2025</td><td>Mahara-Tech</td></tr>
+          <tr><td>QBronze Quantum Computing</td><td>Mar–May 2025</td><td>QWorld</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="activities" class="section activities reveal">
+    <h2><span class="section-index">07</span>Activities</h2>
+    <div class="card-grid">
+      <div class="act-card">
+        <i class="fas fa-atom act-icon"></i>
+        <h3>Head of HR — QAIU (Quantum Computing Community, AIU)</h3>
+        <span class="act-date">Nov 2025 – Present</span>
+        <p>Leading 40+ students in an organization ranked 1st in Africa and 2nd Worldwide in the Q-City Prize.</p>
+      </div>
+      <div class="act-card">
+        <i class="fas fa-users act-icon"></i>
+        <h3>Head of HR — AIU ICPC Community</h3>
+        <span class="act-date">Sep 2025 – Feb 2026</span>
+        <p>Led a community of 600+ students across multiple working groups and competitive events.</p>
+      </div>
+      <div class="act-card">
+        <i class="fas fa-bullhorn act-icon"></i>
+        <h3>Vice Head of Marketing &amp; Media — AIU ICPC</h3>
+        <span class="act-date">Sep 2024 – Aug 2025</span>
+        <p>Directed content strategy and campaigns, and mentored 12 committee members.</p>
+      </div>
+      <div class="act-card">
+        <i class="fas fa-trophy act-icon"></i>
+        <h3>Champion — KENKEN International Championship</h3>
+        <p>Secured 5th place in the UCMAC National Competition (2017), Level Higher A, demonstrating advanced problem-solving skills and analytical thinking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact reveal">
+    <h2><span class="section-index">08</span>Contact Me</h2>
+    <p class="contact-lead">Have a project in mind or just want to say hello? My inbox is open.</p>
+    <div class="contact-details">
+      <p><i class="fas fa-map-marker-alt"></i> Alexandria, Egypt</p>
+      <p><i class="fas fa-phone"></i> +20 128 187 7442</p>
+    </div>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/rodaina-mohamed-746714268/" target="_blank" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/Rodyyyyy" target="_blank" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="mailto:rodaina.hassan.2024@aiu.edu.eg" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Rodaina Mohamed. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
